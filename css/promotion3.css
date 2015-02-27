@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* SCHEMR Reset */
+/* margin, padding 0 */
+html,body,div,header,section,article,aside,ul,ol,li,form,fieldset,legend,p,h1,h2,h3,h4,h5,h6, 
+dl,dt,dd,table,caption,tbody,tfoot,thead,tr,th,td,sup,sub,city,blockquote,pre,abbr,address,
+code,del,dfn,em,img,ins,kbd,q,samp,small,strong,b,i,span,video{margin:0; padding:0}
+/* border:0 */
+fieldset,img,abbr,acronym{border:0 none} 
+/* table */
+table{border-collapse:collapse;border-spacing:0}
+caption,th,td{font-weight: normal}
+legend{display:none}
+/* list */
+ol,ul,li{list-style:none}
+a{text-decoration:none;font-size:13px;color:#8e8d8d;outline:none;border:none;}
+a:active, a:selected, a:visited {border: none;outline: none;}
+/* etc */
+em,i,address{font-style:normal;font-weight:normal}
+textarea {resize:none;}
+label {cursor:pointer;}
+fieldset{width:100%;}
+.sex,.name{display:block;}
+.p_image{padding-top:20px;}
+.p_radio{padding-top:20px;}
+.p_radio input{width:32px;height:32px;}
+.promotion3_main{}
+.step1_contents{background:url(q1_contents_bg.jpg) no-repeat;width:845px;height:600px;}
+.step1_contents label img{width:49%;float:left}
+.step2_contents{background:url(q2_contents_bg.jpg) no-repeat;width:845px;height:600px;}
+.step2_contents input#name{width:249px;padding:16px 0;border:0;margin-top:448px;margin-left:330px;background:#FFF;font-size:17px;}
+.step3_contents{background:url(q3_contents_bg.jpg) no-repeat;width:845px;height:600px;position:relative}
+.step4_contents{background:url(q4_contents_bg.jpg) no-repeat;width:845px;height:580px;padding-top:20px;}
+.file_upload{overflow:hidden;;width:100%;}
+.file_upload .file{width:800px;height:660px;font-size: 100px; position: absolute;top:129px;left:0; opacity:0; filter: alpha(opacity=0); cursor: pointer;}
+.file_upload a{display:inline-block;}
+#share_wrapper{width:845px; height:930px; background: url(complete_bg.jpg) no-repeat;position:relative;}
+#share_wrapper #result{padding-top:140px;padding-left: 176px;}
+#share_wrapper #result img{width:490px;height:620px;}
+#targetBox{width: 560px;height: 560px;overflow: hidden;margin-left: 142px;background-color: rgba(0,0,0,0.7);}
+#share{margin-top:10px;}
+button{border:0;padding:0;margin:0;outline:0;background:none;cursor:pointer;}
+button:focus {outline: 0;box-shadow: none;}
+#refresh{width:192px;margin-left:175px;}
+#download{width:191px;}
+.go_product{width:166px;position:absolute;top:45%;right:0;}
+#reply2{width:189px;margin-left:474px;margin-top:10px;}
+#facebook-link-btn{width:65px}
+button{margin-right:5px;}
+#facebook-link-btn{margin-left:21px;}
+
